@@ -3,16 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.logo {
-    width: 90px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
+
 html {
 	scroll-behavior: smooth;
 }
 /* Style for logo */
 .logo {
-    width: 150px;
+    width: 90px;
     height: auto;
 }
 body {
