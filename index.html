@@ -1,83 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--divinectorweb.com-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCCG TLP BURY</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Responsive HTML Church Website Template | CSS Flexbox Layout</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 </head>
-<body class="bg-green-50">
-    <header class="bg-green-800 text-white p-4 flex flex-col items-center justify-center text-center">
-        <div class="w-full flex justify-center">
-            <img src="rccglogo.png" alt="RCCG TLP BURY Logo" class="h-20">
-        </div>
-        <div>
-            <h1 class="text-3xl">RCCG TLP BURY</h1>
-            <p>Reaching out, saving souls, building disciples with love.</p>
-        </div>
-        <nav class="w-full mt-2">
-            <ul class="flex justify-center space-x-4">
-                <li><a href="#about" class="text-green-200 hover:text-white">About</a></li>
-                <li><a href="#events" class="text-green-200 hover:text-white">Events</a></li>
-                <li><a href="#contact" class="text-green-200 hover:text-white">Contact</a></li>
-                <li><a href="#activities" class="text-green-200 hover:text-white">Activities</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-
-        <!-- Events Calendar -->
-        <section id="events" class="p-4 bg-green-100">
-            <h2 class="text-2xl font-bold text-green-900">Events Calendar</h2>
-            <h1> <strong>Our services are currently being held at VUE cinemas the rock Bury (BL9 0YB) Screen 5!</strong></h1>
-            <p>Join our events both online and in-person. Here's our schedule:</p>
-            <ul>
-                <li><strong>Sundays @ 11am - Worship Service </strong>(In-person & Online)</li>
-                <li>Fridays @ 6pm - Prayer Meeting (Online)</li>
-                <li>Last Friday @ 10pm - Night Vigil (Online)</li>
-                <li>August - Summer Mentoring Classes for Girls</li>
-            </ul>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="p-4 bg-green-50">
-            <h2 class="text-2xl font-bold text-green-900">Contact Us</h2>
-            <p>Need to reach out? Our doors and lines are always open:</p>
-            <ul>
-                <li>Phone: <strong>07908 635374</strong> / <strong>07956272339</strong> / <strong>07894500837</strong></li>
-                <li>Email: [rccgtlp1@gmail.com]</li>
-                <li>Address: [The Rock, Bury BL9 0YB]</li>
-            </ul>
-            <!-- Embed Google Map -->
-            <div class="mapouter">
-    <div class="gmap_canvas">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9471.838598412374!2d-2.2916844!3d53.5941816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ba4dce8aba611%3A0x6c2671933b3194a6!2sVue%20Cinema%20Bury!5e0!3m2!1sen!2suk!4v1714677916125!5m2!1sen!2suk" 
-            class="w-full"
-    style="height: 200px; border:0;"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    frameborder="0"
-    scrolling="no">
-        </iframe>
-    </div>
-</div>
-        </section>
-<!-- Activities and Community Support -->
-        <section id="activities" class="p-4 bg-green-100">
-            <h2 class="text-2xl font-bold text-green-900">Community Support</h2>
-            <p>Explore the various activities and support systems we offer:</p>
-            <ul>
-                <li>Food Bank - Contact us for food collection or drop-off.</li>
-                <li>Car Wash Vouchers - Available upon request.</li>
-                <li>Practical Assistance for Settling in the UK - Get in touch for help with accommodation, jobs, and more.</li>
-            </ul>
-        </section>
-    </main>
-    <footer class="bg-green-900 text-white p-4 text-center">
-        © 2024 RCCG TLP BURY - All Rights Reserved
-    </footer>
+<body>
+	<header>
+		<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>
+		<ul class="nav">
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#about">About</a>
+			</li>
+			<li>
+				<a href="#services">Services</a>
+			</li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</header>
+	<section class="banner-area">
+		<div class="banner-img"></div>
+		<h3>We Help to get things Done</h3>
+		<h1>God is <span>Almigthy</span></h1><a class="banner-btn" href="#">More Info</a>
+	</section>
+	<section class="about-area" id="about">
+		<h3 class="section-title">About <span>Us</span></h3>
+		<ul class="about-content">
+			<li class="about-left"></li>
+			<li class="about-right">
+				<h2>We are Taking Small Steps to Make Earth Better Planet of the universe</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam excepturi, similique aut nesciunt, illo tenetur deleniti ab soluta nisi impedit ipsam consectetur magni! Atque sunt voluptate fuga, perspiciatis corrupti maiores dignissimos deserunt cupiditate, nihil inventore. Lorem ipsum dolor sit amet</p>
+				<p><i class="fa fa-arrow-right"></i> Lorem ipsum dolor sit amet</p>
+				<p><i class="fa fa-arrow-right"></i> deleniti ab soluta nisi impedit</p>
+				<p><i class="fa fa-arrow-right"></i> maiores dignissimos deserunt cupiditate</p>
+				<p><i class="fa fa-arrow-right"></i> illo tenetur deleniti ab soluta nisi</p>
+			</li>
+		</ul>
+	</section>
+	<section class="msg-area">
+		<div class="msg-content">
+			<h2>Quote of the day</h2>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam excepturi, similique aut nesciunt, illo tenetur deleniti ab soluta"</p>
+		</div>
+	</section>
+	<section class="services-area" id="services">
+		<h3 class="section-title">Our <span>Offers</span></h3>
+		<ul class="services-content">
+			<li>
+				<img alt="" src="images/1.jpg">
+				<h4>Prayer</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, reprehenderit.</p>
+			</li>
+			<li>
+				<img alt="" src="images/3.jpg">
+				<h4>offerings</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, reprehenderit.</p>
+			</li>
+			<li>
+				<img alt="" src="images/4.jpg">
+				<h4>Blessings</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, reprehenderit.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="contact-area" id="contact">
+		<h3 class="section-title">Our <span>Contact</span></h3>
+		<ul class="contact-content">
+			<li>
+				<i class="fa fa-map-marker"></i>
+				<p>129, New York<br>
+				United States</p>
+			</li>
+			<li>
+				<i class="fa fa-phone"></i>
+				<p>+123 456 789<br>
+				+789 456 123</p>
+			</li>
+			<li>
+				<i class="fa fa-envelope"></i>
+				<p>info@bishop.com<br>
+				yourdomain@website.com</p>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<p>All Right Reserved by Your Website</p>
+	</footer>
 </body>
 </html>
