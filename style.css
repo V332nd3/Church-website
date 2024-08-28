@@ -12,10 +12,25 @@ body {
 ul, ul.nav {
 	list-style: none;
 }
+li a {
+  display: block;
+  width: 60px;
+}
 a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
+}
+header ul.nav li a:hover {
+    color: #cc0000; /* Darker red for hover state */
+}
+/* Navigation Links Styles */
+header ul.nav li a {
+    color: #ff0000; /* Red color for normal state */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 header {
     position: absolute;
