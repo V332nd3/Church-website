@@ -60,6 +60,11 @@ header {
 .highlight {
     color: #00923f; /* Change this color code to your desired color */
 }
+/* Style for the church name */
+.church-name {
+    color: #000000; /* Black color for the church name */
+}
+
 
 /* Keep navigation as it is */
 header ul.nav {
