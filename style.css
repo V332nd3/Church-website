@@ -30,12 +30,12 @@ header {
     padding: 35px 100px 0;
 }
 
-/* New logo class */
+
 .logo img {
     width: 120px; /* Adjust this size based on your logo dimensions */
     height: auto;
 }
-/* Style for the church name */
+
 .church-name {
     font-size: 24px; /* Adjust font size as needed */
     font-weight: bold;
