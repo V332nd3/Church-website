@@ -42,6 +42,9 @@ header {
     margin-left: 20px; /* Space between logo and name */
     color: #fff; /* Adjust color if needed */
 }
+.highlight {
+    color: #00923f; /* Change this color code to your desired color */
+}
 
 /* Keep navigation as it is */
 header ul.nav {
