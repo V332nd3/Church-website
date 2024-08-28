@@ -35,6 +35,18 @@ header {
     width: 120px; /* Adjust this size based on your logo dimensions */
     height: auto;
 }
+/* Style for the church name */
+.church-name {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin-left: 20px; /* Space between logo and name */
+    color: #fff; /* Adjust color if needed */
+}
+
+/* Keep navigation as it is */
+header ul.nav {
+    display: flex;
+}
 header h2 span {
 	color: #bf0a30;
 }
